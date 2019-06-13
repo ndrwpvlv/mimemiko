@@ -1,5 +1,5 @@
 # Mimemiko
-Mimemiko — simple mime type recognition libriary. 
+Mimemiko — simple mime type recognition library. 
 
 ## Basics
 Package contains:

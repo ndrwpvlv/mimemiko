@@ -1,5 +1,5 @@
 import os
-from mimemiko.libriary import BASIC_MIMETYPES, MIMETYPES
+from mimemiko.library import BASIC_MIMETYPES, MIMETYPES
 
 
 def mime_by_extension(extension: str) -> str:
