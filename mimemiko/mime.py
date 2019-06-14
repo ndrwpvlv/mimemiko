@@ -12,3 +12,7 @@ def mime_by_extensions(extensions: list) -> list:
 
 def mime_by_path(path: str) -> str:
     return mime_by_extension(os.path.splitext(path)[1])
+
+
+def mime_by_paths(paths: list) -> list:
+    return [mime_by_extension(os.path.splitext(path)[1]) for path in paths]
